@@ -1,0 +1,51 @@
+.login-box {
+    background-color: #F4F7FC;
+    color: #4D4F5C !important;
+    .card {
+        // display:
+        box-shadow: none;
+        
+        .form-control {
+            border: none;
+            border-bottom: 1px solid #dcdce2;
+            border-radius: 0px;
+            padding: 0 0.37rem;
+            margin-bottom: 0.9rem;
+            background-color: #F4F7FC;
+            color:#43425D;
+        }
+
+        .signin-button {
+            margin-top: 1.75rem;
+        }
+
+        .login-logo-text {
+            font-weight: 700;
+            color: #131523;
+            letter-spacing: 1px;
+            margin-bottom: 0.3rem;
+        }
+
+        .login-box-msg {
+            margin-bottom: 1.05rem;
+        }
+
+        .login-card-body {
+            background-color: #F4F7FC;
+
+            .forgot-text {
+                font-weight: 400;
+                font-size: 0.8rem;
+                cursor: pointer;
+                margin-left: auto;
+                color: #F0142F;
+            }
+
+            button {
+                align-self: center;
+            }
+        }
+
+        
+    }
+}

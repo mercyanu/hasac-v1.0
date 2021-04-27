@@ -1,0 +1,16 @@
+.chart-card {
+    background-color: #fff;
+    border-radius:  20px;
+
+    .chart-header {
+        background-color: rgba(0, 0, 0, 0.035) !important;
+        border: none;
+        border-radius: 20px 20px 0 0;
+
+        .card-title {
+            color: #171725;
+            font-weight: 700;
+            font-size: 0.8rem;
+        }
+    }
+}

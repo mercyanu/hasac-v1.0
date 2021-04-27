@@ -1,0 +1,48 @@
+.landing-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+    .lt-card {
+        background: linear-gradient(30deg, rgba(0, 1, 5, 0.7), rgba(19, 21, 35, 0.8)), url(../../assets/backg-field.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: #ffffff;
+        width: 50%;
+        height: 100vh;
+        
+        .left-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            
+            .hasac-logo {
+                width: 150px;
+    
+                img{
+                    width: 100%;
+                }
+            }
+
+            p {
+                line-height: 35px;
+                letter-spacing: 1px;
+                font-size: 0.8rem;
+            }
+        }
+
+    }
+
+    .rt-card {
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
