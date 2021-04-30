@@ -1,4 +1,5 @@
 import React from 'react';
+import AllTime from '../alltime/alltime.component';
 import ChartComp from '../chart/chart.component';
 import Forecast from '../forecast/forecast.component';
 import './soil.style.scss';
@@ -51,6 +52,7 @@ const Soil = () => {
                         {/* /.col (RIGHT) */}
                         <div className="col-md-4">
                             <Forecast />
+                            <AllTime />
                         </div>
                         
                     </div>

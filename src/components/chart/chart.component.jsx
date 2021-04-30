@@ -22,11 +22,6 @@ const ChartComp = () => {
                         y: {
                             beginAtZero: true
                         }
-                    },
-                    elements: {
-                        line: {
-                            tension: 0
-                        }
                     }
                 }}
             />

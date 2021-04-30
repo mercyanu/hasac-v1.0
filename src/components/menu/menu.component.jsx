@@ -25,7 +25,7 @@ const Menu = () => {
                         </li>
                         <li className="nav-item">
                             <a href="pages/kanban.html" className="nav-link">
-                                <i className="nav-icon fas fa-bar-chart" />
+                                <i className="nav-icon fas fa-microchip" />
                                 <p>
                                     Soil
             </p>
@@ -33,7 +33,7 @@ const Menu = () => {
                         </li>
                         <li className="nav-item">
                             <a href="pages/kanban.html" className="nav-link">
-                                <i className="nav-icon fa fa-sun-o" />
+                                <i className="nav-icon fa fa-microchip" />
                                 <p>
                                     Weather
             </p>

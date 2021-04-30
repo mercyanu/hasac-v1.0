@@ -9,7 +9,7 @@ const Forecast = () => {
             </div>
             <div className="card-body forecast-card-body">
                 <div className="body-cont">
-                    <div className="title"><span><i className="fa fa-home" />Tomorrow</span>
+                    <div className="title"><span><i className="fa fa-microchip" />&nbsp;Tomorrow</span>
                     </div>
                     <p className="value">30%</p>
                     <p className="sub-title">soil <br /> moisture</p>
@@ -17,9 +17,9 @@ const Forecast = () => {
                 </div>
 
                 <div className="body-cont">
-                    <div className="title"><span><i className="fa fa-home" />Tomorrow</span>
+                    <div className="title"><span><i className="fa fa-microchip" />&nbsp;Tomorrow</span>
                     </div>
-                    <p className="value">30%</p>
+                    <p className="value">20%</p>
                     <p className="sub-title">soil <br />temperature</p>
                 </div>
             </div>
