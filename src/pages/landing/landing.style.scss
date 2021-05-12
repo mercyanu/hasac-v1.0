@@ -1,9 +1,46 @@
+// --- Breakpoints ---
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+
+// --- Mixins ---
+@mixin sm {
+    @media (max-width: #{$screen-sm}) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media (max-width: #{$screen-md}) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media (max-width: #{$screen-lg}) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media (max-width: #{$screen-xl}) {
+        @content;
+    }
+}
+
+
+
 .landing-container {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
+
+    @include md {
+        display: block;
+    }
 
     .lt-card {
         background: linear-gradient(30deg, rgba(0, 1, 5, 0.7), rgba(19, 21, 35, 0.8)), url(../../assets/backg-field.jpg);
@@ -13,6 +50,10 @@
         color: #ffffff;
         width: 50%;
         height: 100vh;
+
+        @include md {
+            width: 100%;
+        }
         
         .left-container {
             display: flex;
@@ -44,5 +85,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @include md {
+            width: 100%;
+        }
     }
 }

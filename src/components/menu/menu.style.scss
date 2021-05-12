@@ -7,4 +7,17 @@
         font-size: 0.8rem;
 
     }
+
+    .nav-item {
+        
+        .active {
+            background-color: #14172E !important ;
+            color: #0062FF !important;
+        }
+
+        .nav-link {
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+    }
 }

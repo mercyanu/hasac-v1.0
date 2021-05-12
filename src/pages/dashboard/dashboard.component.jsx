@@ -8,10 +8,9 @@ import Landing from '../landing/landing.component';
 const Dashboard = () => {
     return (
         <div>
-            {/* <Landing /> */}
             <Header />
             <Menu />
-            <Soil />
+            <Home />
             <footer className="main-footer">
                 Copyright © 2014-2021 <a href="">HASAC</a>.
                 All rights reserved.
